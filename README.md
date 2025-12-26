@@ -9,15 +9,15 @@ The DS18B20 logic is fully contained in the library files, while `main.c` only d
 ## Project structure
 
 
-DS18B20-UART-DMA/Core/
-├── Inc/
-│ ├── ds18b20_uart.h // DS18B20 driver API
-│ ├── oled.h // SSD1306 OLED driver
-│ └── main.h
-└── Src/
-├── ds18b20_uart.c // DS18B20 driver implementation
-├── oled.c
-└── main.c // Example usage
+DS18B20-UART-DMA/Core/  
+├── Inc/  
+│ ├── ds18b20_uart.h // DS18B20 driver API  
+│ ├── oled.h // SSD1306 OLED driver  
+│ └── main.h  
+└── Src/  
+&nbsp;&nbsp;&nbsp;├── ds18b20_uart.c // DS18B20 driver implementation  
+&nbsp;&nbsp;&nbsp;├── oled.c  
+&nbsp;&nbsp;&nbsp;└── main.c // Example usage  
 
 ## DS18B20 library
 
